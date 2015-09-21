@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20FBC29FC31C3A1F4B47C37C /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C603A03A142CEE938AA239A3 /* BuddyBuildSDK.framework */; };
+		41D2269AC9B39C9451F573B3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1C36F5B31437582F7AFEDE /* CoreText.framework */; };
+		45AC81CBCA93B70D26498755 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4286EA9D7AFA09EB4E3066C9 /* AssetsLibrary.framework */; };
+		5396A172D4A679F00341DBB7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA4C8639C60CCF781DC98B /* SystemConfiguration.framework */; };
 		6536264D1AF289B0001991D2 /* Meter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536264C1AF289B0001991D2 /* Meter.swift */; };
 		6536264F1AF28EE2001991D2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536264E1AF28EE2001991D2 /* Colors.swift */; };
 		653626511AF28F68001991D2 /* Flipbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653626501AF28F68001991D2 /* Flipbook.swift */; };
@@ -16,6 +20,7 @@
 		65EF92DC1AF287B300F85988 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EF92DB1AF287B300F85988 /* Images.xcassets */; };
 		65EF92DF1AF287B300F85988 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EF92DD1AF287B300F85988 /* LaunchScreen.xib */; };
 		65EF92EB1AF287B300F85988 /* GulpsAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EF92EA1AF287B300F85988 /* GulpsAnimationTests.swift */; };
+		8A9A1FD7B3DE26957B2CBFDD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076F81E0B7F74AE4D64B7F3F /* CoreTelephony.framework */; };
 		8C9A9C0624FB571B564E0F9F /* Pods_GulpsAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 699CCD531FD936CAA0CAD8B7 /* Pods_GulpsAnimation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -30,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		076F81E0B7F74AE4D64B7F3F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1B1C36F5B31437582F7AFEDE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		24931607E5EA5577BF7B7A16 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4286EA9D7AFA09EB4E3066C9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		6536264C1AF289B0001991D2 /* Meter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meter.swift; sourceTree = "<group>"; };
 		6536264E1AF28EE2001991D2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		653626501AF28F68001991D2 /* Flipbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flipbook.swift; sourceTree = "<group>"; };
@@ -45,6 +54,8 @@
 		65EF92EA1AF287B300F85988 /* GulpsAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GulpsAnimationTests.swift; sourceTree = "<group>"; };
 		699CCD531FD936CAA0CAD8B7 /* Pods_GulpsAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GulpsAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B81C9B6511FA0D3C7F999DA /* Pods-GulpsAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GulpsAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-GulpsAnimation/Pods-GulpsAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		C603A03A142CEE938AA239A3 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		D0DA4C8639C60CCF781DC98B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D959250C8C10E09D468675C5 /* Pods-GulpsAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GulpsAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GulpsAnimation/Pods-GulpsAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +65,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C9A9C0624FB571B564E0F9F /* Pods_GulpsAnimation.framework in Frameworks */,
+				20FBC29FC31C3A1F4B47C37C /* BuddyBuildSDK.framework in Frameworks */,
+				45AC81CBCA93B70D26498755 /* AssetsLibrary.framework in Frameworks */,
+				41D2269AC9B39C9451F573B3 /* CoreText.framework in Frameworks */,
+				8A9A1FD7B3DE26957B2CBFDD /* CoreTelephony.framework in Frameworks */,
+				5396A172D4A679F00341DBB7 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				699CCD531FD936CAA0CAD8B7 /* Pods_GulpsAnimation.framework */,
+				C603A03A142CEE938AA239A3 /* BuddyBuildSDK.framework */,
+				4286EA9D7AFA09EB4E3066C9 /* AssetsLibrary.framework */,
+				1B1C36F5B31437582F7AFEDE /* CoreText.framework */,
+				076F81E0B7F74AE4D64B7F3F /* CoreTelephony.framework */,
+				D0DA4C8639C60CCF781DC98B /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,6 +113,7 @@
 				65EF92D01AF287B300F85988 /* Products */,
 				3FAE811B068701F466672E36 /* Pods */,
 				447E576465B694102940EDF7 /* Frameworks */,
+				24931607E5EA5577BF7B7A16 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -428,9 +450,14 @@
 			baseConfigurationReference = D959250C8C10E09D468675C5 /* Pods-GulpsAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GulpsAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -439,9 +466,14 @@
 			baseConfigurationReference = 7B81C9B6511FA0D3C7F999DA /* Pods-GulpsAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GulpsAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
